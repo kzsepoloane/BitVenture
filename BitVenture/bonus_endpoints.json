@@ -62,7 +62,8 @@
       "endpoints": [
         {
           "enabled": true,
-          "resource": "/xml.gp?ip=105.184.92.37",          
+          "resource": "/xml.gp?ip=105.184.92.37",
+          "http": null, 
           "requestBody": "",
           "response": [
             {

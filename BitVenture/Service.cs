@@ -10,6 +10,8 @@ namespace BitVenture
     {
         public string baseUrl { get; set; }
         public bool enabled { get; set; }
+        public string datatype { get; set; }
         public IEnumerable<Endpoint> endpoints { get; set; }
+        public IEnumerable<KeyValuePair<string, string>> identifiers { get; set; }
     }
 }
